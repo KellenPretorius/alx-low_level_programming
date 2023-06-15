@@ -3,3 +3,5 @@
 2-assembler - Runs the .c file through to the assembly generation and then saves it in an output file c.
 3-name -uns the .c file and create an executable called cisfun
 4-puts - Creates a scriptthat prints 'Programming is like building a multilingual puzzle'
+5-printf.c - Creates a script that prints exactly 'with proper grammar, but the outcome is a piece of art,'
+6-
