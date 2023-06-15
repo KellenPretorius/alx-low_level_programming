@@ -1,4 +1,4 @@
 0-preprocessor - Runs the .c file stored in '$CFILE' through only the preprocessor, using -E, then saving the output into a file named c.
 1-compiler - Runs the .c file stored in '$CFILE' stopping after compiling, using -C, then saving the output into a file named c. The file name in $CFILE extension is changed to .o
 2-assembler - Runs the .c file through to the assembly generation and then saves it in an output file c.
-3-name - 
+3-name -uns the .c file and create an executable called cisfun
