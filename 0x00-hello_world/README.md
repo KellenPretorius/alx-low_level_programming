@@ -4,4 +4,4 @@
 3-name -uns the .c file and create an executable called cisfun
 4-puts - Creates a scriptthat prints 'Programming is like building a multilingual puzzle'
 5-printf.c - Creates a script that prints exactly 'with proper grammar, but the outcome is a piece of art,'
-6-
+6-size.c - Prints the size of char, int, long int, long long int, and float'
