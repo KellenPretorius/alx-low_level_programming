@@ -5,3 +5,5 @@
 4-puts - Creates a scriptthat prints 'Programming is like building a multilingual puzzle'
 5-printf.c - Creates a script that prints exactly 'with proper grammar, but the outcome is a piece of art,'
 6-size.c - Prints the size of char, int, long int, long long int, and float'
+7-intel - Generates the intel Syntax of a C code with masm=intel and gcc -S
+8-
