@@ -6,4 +6,4 @@
 5-printf.c - Creates a script that prints exactly 'with proper grammar, but the outcome is a piece of art,'
 6-size.c - Prints the size of char, int, long int, long long int, and float'
 100-intel - Generates the intel Syntax of a C code with masm=intel and gcc -S
-8-
+101-quote.c - prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error by using UNIX (FYI #include is essentially using systems;) andreturning 1
