@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
  * Assigns a random number to the variable n each time it is executed and tells whether it is positive or negative.
  *
