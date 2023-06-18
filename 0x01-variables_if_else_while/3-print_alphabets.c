@@ -11,10 +11,10 @@
 int main(void)
 {
 	char alpha;
-	char upper = alpha - 'a' + 'A';
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
+		char upper = alpha - 'a' + 'A';
 		putchar(alpha);
 		putchar(upper);
 	}
