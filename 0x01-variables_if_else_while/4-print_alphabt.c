@@ -1,4 +1,4 @@
-#include <stdio.head>
+#include <stdio.h>
 
 /**
  * main - Prints Alphabet excluding q and e
