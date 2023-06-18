@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * States whether n is positive or negative.
+ * main - States whether n is positive or negative.
  *
  * Return: Always 0 (Success)
  *
