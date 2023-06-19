@@ -20,7 +20,7 @@ int main(void)
 				putchar(dig);
 				putchar(it);
 
-				if (!(dig == '9' && it == '8')
+				if (!(dig == '9' && it == '8'))
 				{
 					putchar(',');
 					putchar(' ');
