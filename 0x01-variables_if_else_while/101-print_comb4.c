@@ -9,22 +9,26 @@
 
 int main(void)
 {
-	int dig, it;
+	int dig, it, s;
 
 	for (dig = '0'; dig <= '9'; dig++)
 	{
-		for (it = dig + '1'; it <= '0'; it++)
+		for (it = dig + 1; it <= '0'; it++)
 		{
-			if (it != dig)
+		        for (s = it + 1; s <= '9'; s++)
 			{
-				putchar(dig);
-				putchar(it);
-
-				if (dig == '8' && it == '9')
+				if ((it != dig) != s)
 				{
-					continue;
-					putchar(',');
-					putchar(' ');
+					putchar(dig);
+					putchar(it);
+					putchar(s);
+
+					if (d == '7' && p == '8')
+					{
+						continue;
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
