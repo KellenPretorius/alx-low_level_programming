@@ -10,7 +10,7 @@
 int main(void)
 {
     int dig, it;
-    int count = 0; // Count the number of pairs printed
+    int count = 0;
 
     for (dig = '0'; dig <= '9'; dig++)
     {
