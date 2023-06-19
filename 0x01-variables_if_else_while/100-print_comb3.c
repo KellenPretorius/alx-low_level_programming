@@ -9,25 +9,28 @@
 
 int main(void)
 {
-	int dig, it;
+    int dig, it;
+    int count = 0; // Count the number of pairs printed
 
-	for (dig = '0'; dig <= '9'; dig++)
-	{
-		for (it = dig + 1; it <= '9'; it++)
-		{
-			if (it > dig)
-			{
-				putchar(dig);
-				putchar(it);
+    for (dig = '0'; dig <= '9'; dig++)
+    {
+        for (it = dig + 1; it <= '9'; it++)
+        {
+            if (it > dig)
+            {
+                if (count > 0)
+                {
+                    putchar(',');
+                    putchar(' ');
+                }
 
-				if (!(dig == '9' && it == '8'))
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
-	}
-	putchar('\n');
-	return (0);
+                putchar(dig);
+                putchar(it);
+                count++;
+            }
+        }
+    }
+
+    putchar('\n');
+    return 0;
 }
