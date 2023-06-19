@@ -11,16 +11,16 @@ int main(void)
 {
 	int dig, it;
 
-	for (dig = 48; dig <= 56; dig++)
+	for (dig = '0'; dig <= '9'; dig++)
 	{
-		for (it = dig + 49; it <= 57; it++)
+		for (it = dig + '1'; it <= '9'; it++)
 		{
 			if (it > dig)
 			{
 				putchar(dig);
 				putchar(it);
 
-				if (dig == 56 && it == 57)
+				if (dig == '7' && it == '9')
 				{
 					putchar(',');
 					putchar(' ');
