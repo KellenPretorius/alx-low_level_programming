@@ -11,21 +11,20 @@ int main(void)
 {
 	int dig, it;
 
-	for (dig = '0'; dig <= '9'; dig++)
+	for (dig = 48; dig <= 56; dig++)
 	{
-		for (it = dig + 1; it <= '0'; it++)
+		for (it = dig + 49; it <= 57; it++)
 		{
-			if (it != dig)
+			if (it > dig)
 			{
 				putchar(dig);
 				putchar(it);
 
-				if (dig == '8' && it == '9')
+				if (dig == 56 && it == 57)
 				{
-					continue;
+					putchar(',');
+					putchar(' ');
 				}
-				putchar(',');
-				putchar(' ');
 			}
 		}
 	}

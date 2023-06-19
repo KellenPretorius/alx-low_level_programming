@@ -11,24 +11,23 @@ int main(void)
 {
 	int dig, it, s;
 
-	for (dig = '0'; dig <= '9'; dig++)
+	for (dig = 48; dig <= 50; dig++)
 	{
-		for (it = dig + 1; it <= '0'; it++)
+		for (it = 49; it <= 50; it++)
 		{
-		        for (s = it + 1; s <= '9'; s++)
+		        for (s = 50; s < 50; s++)
 			{
-				if ((it != dig) != s)
+				if (s > it && it > dig)
 				{
 					putchar(dig);
 					putchar(it);
 					putchar(s);
 
-					if (dig == '7' && p == '8')
+					if (dig == '55' && p == '56')
 					{
-						continue;
+						putchar(',');
+						putchar(' ');
 					}
-					putchar(',');
-					putchar(' ');
 				}
 			}
 		}
