@@ -13,7 +13,7 @@ int main(void)
 
 	for (dig = '0'; dig <= '9'; dig++)
 	{
-		for (it = dig + '0'; it <= '9'; it++)
+		for (it = '0'; it <= '9'; it++)
 		{
 			if (it > dig)
 			{
