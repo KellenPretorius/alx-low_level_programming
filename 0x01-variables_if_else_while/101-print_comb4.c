@@ -23,7 +23,7 @@ int main(void)
 					putchar(it);
 					putchar(s);
 
-					if (dig == '5' && it == '5' && s == '6')
+					if (!(dig == '5' && it == '5' && s == '6'))
 					{
 						putchar(',');
 						putchar(' ');
