@@ -9,28 +9,27 @@
 
 int main(void)
 {
-    int dig, it;
-    int count = 0;
+	int dig, it;
+	int count = 0;
 
-    for (dig = '0'; dig <= '9'; dig++)
-    {
-        for (it = dig + 1; it <= '9'; it++)
-        {
-            if (it > dig)
-            {
-                if (count > 0)
-                {
-                    putchar(',');
-                    putchar(' ');
-                }
+	for (dig = '0'; dig <= '9'; dig++)
+	{
+		for (it = dig + 1; it <= '9'; it++)
+		{
+			if (it > dig)
+			{
+				if (count > 0)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 
-                putchar(dig);
-                putchar(it);
-                count++;
-            }
-        }
-    }
-
-    putchar('\n');
-    return 0;
+				putchar(dig);
+				putchar(it);
+				count++;
+			}
+		}
+	}
+	putchar('\n');
+	return 0;
 }
