@@ -12,7 +12,7 @@ int main(void)
 	int dig1, dig2, dig3, dig4;
 	int count = 0;
 
-	for (dig1 = '0'; dig1 <='9')
+	for (dig1 = '0'; dig1 <='9'; dig1++)
 	{
 		for (dig2 = '0'; dig2 <= '9'; dig2++)
 		{
