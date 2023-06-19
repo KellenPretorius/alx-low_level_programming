@@ -16,14 +16,14 @@ int main(void)
 	{
 		for (it = dig + 1; it <= '9'; it++)
 		{
-		        for (s = '0'; s <= '9'; s++)
+			for (s = '0'; s <= '9'; s++)
 			{
 				if (s > it && it > dig)
 				{
 					if (count > 0)
 					{
-					        putchar(',');
-                                                putchar(' ');
+						putchar(',');
+						putchar(' ');
 					}
 					putchar(dig);
 					putchar(it);
