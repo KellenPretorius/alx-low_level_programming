@@ -12,7 +12,7 @@ int main(void)
 	int base;
 	char alpha;
 
-	for (base = '0'; base < '9'; base++)
+	for (base = '0'; base <= '9'; base++)
 	{
 		putchar(base);
 	}
