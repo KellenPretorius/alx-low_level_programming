@@ -17,8 +17,8 @@ int main(void)
 		{
 			if (it > dig)
 			{
-				putchar(dig);
-				putchar(it);
+				putchar('0' + dig);
+				putchar('0' + it);
 
 				if (!(dig == 7 && it == 9))
 				{
