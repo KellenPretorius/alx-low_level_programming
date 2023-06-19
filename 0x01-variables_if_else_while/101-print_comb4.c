@@ -28,7 +28,7 @@ int main(void)
 					putchar(dig);
 					putchar(it);
 					putchar(s);
-					count++
+					count++;
 				}
 			}
 		}
