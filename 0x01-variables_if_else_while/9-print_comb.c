@@ -11,7 +11,7 @@ int main(void)
 {
 	int dig;
 
-	for (dig = '0'; dig <='9'; dig++)
+	for (dig = '0'; dig <= '9'; dig++)
 	{
 		putchar(dig);
 		if (dig != '9')
