@@ -23,9 +23,9 @@ int main(void)
 				if (dig == '8' && it == '9')
 				{
 					continue;
-					putchar(',');
-					putchar(' ');
 				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}

@@ -23,12 +23,12 @@ int main(void)
 					putchar(it);
 					putchar(s);
 
-					if (d == '7' && p == '8')
+					if (dig == '7' && p == '8')
 					{
 						continue;
-						putchar(',');
-						putchar(' ');
 					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
